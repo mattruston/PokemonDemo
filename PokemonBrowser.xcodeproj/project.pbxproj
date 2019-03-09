@@ -12,12 +12,6 @@
 		19EEEF56223442A100D3CAF6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19EEEF54223442A100D3CAF6 /* Main.storyboard */; };
 		19EEEF58223442A300D3CAF6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19EEEF57223442A300D3CAF6 /* Assets.xcassets */; };
 		19EEEF5B223442A300D3CAF6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19EEEF59223442A300D3CAF6 /* LaunchScreen.storyboard */; };
-		19EEEF63223444E900D3CAF6 /* AlamofireImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19EEEF62223444E900D3CAF6 /* AlamofireImage.framework */; };
-		19EEEF64223444E900D3CAF6 /* AlamofireImage.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 19EEEF62223444E900D3CAF6 /* AlamofireImage.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		19EEEF692234490400D3CAF6 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19EEEF662234469900D3CAF6 /* Alamofire.framework */; };
-		19EEEF6A2234490400D3CAF6 /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 19EEEF662234469900D3CAF6 /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		19EEEF6E22344B7700D3CAF6 /* Pokedex.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19EEEF6D22344B7700D3CAF6 /* Pokedex.framework */; };
-		19EEEF6F22344B7700D3CAF6 /* Pokedex.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 19EEEF6D22344B7700D3CAF6 /* Pokedex.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,9 +21,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				19EEEF64223444E900D3CAF6 /* AlamofireImage.framework in Embed Frameworks */,
-				19EEEF6A2234490400D3CAF6 /* Alamofire.framework in Embed Frameworks */,
-				19EEEF6F22344B7700D3CAF6 /* Pokedex.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -44,9 +35,6 @@
 		19EEEF57223442A300D3CAF6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		19EEEF5A223442A300D3CAF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		19EEEF5C223442A300D3CAF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		19EEEF62223444E900D3CAF6 /* AlamofireImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AlamofireImage.framework; path = Carthage/Build/iOS/AlamofireImage.framework; sourceTree = "<group>"; };
-		19EEEF662234469900D3CAF6 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
-		19EEEF6D22344B7700D3CAF6 /* Pokedex.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Pokedex.framework; path = Carthage/Build/iOS/Pokedex.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,9 +42,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				19EEEF63223444E900D3CAF6 /* AlamofireImage.framework in Frameworks */,
-				19EEEF692234490400D3CAF6 /* Alamofire.framework in Frameworks */,
-				19EEEF6E22344B7700D3CAF6 /* Pokedex.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,9 +51,6 @@
 		19EEEF44223442A100D3CAF6 = {
 			isa = PBXGroup;
 			children = (
-				19EEEF6D22344B7700D3CAF6 /* Pokedex.framework */,
-				19EEEF662234469900D3CAF6 /* Alamofire.framework */,
-				19EEEF62223444E900D3CAF6 /* AlamofireImage.framework */,
 				19EEEF4F223442A100D3CAF6 /* PokemonBrowser */,
 				19EEEF4E223442A100D3CAF6 /* Products */,
 			);
